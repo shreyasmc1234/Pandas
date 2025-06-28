@@ -1,6 +1,7 @@
 
 #extraction
 
+Use case:  
 # I have a csv file coming into a folder evey morning 12 am cst(central standard time). the csv file is sent by the finance team ,
 #we need to read the csv file into a df and then we need to tranform the data which includes the below issues.
 
@@ -16,23 +17,7 @@
 #operating income
 #accounts receivables
 #accounts payables.
-#year ove year growth
-
-
-#loading
-#Once the data is cleaned move the data in parquet format and save the data in another folder.
-
-#Medallion Architecture
-
-#Bronze Layer: Raw data
-
-
-#Silver layer: tranformations (drop duplicates, fixing null values, changing datatypes, removing null values)
-
-
-#Gold Layer: Aggregate columns are built for reporting. (this is where the reporting happens from)
-
-
+#year over year growth
 
 
 
