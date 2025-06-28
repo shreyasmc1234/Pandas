@@ -83,3 +83,5 @@ dt['Account_Recievables']=dt['AR']
 dt['Account_Payables']=dt['AP']
 dt['Growth']=dt['Revenue']*(5/100)
 
+#transformed data 
+dt.to_parquet('d:\\data\\data_transformed.csv')
